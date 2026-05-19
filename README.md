@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/lru-tiny/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/lru-tiny/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/lru-tiny.svg)](https://www.npmjs.com/package/lru-tiny)
+[![downloads](https://img.shields.io/npm/dm/lru-tiny.svg)](https://www.npmjs.com/package/lru-tiny)
+[![bundle](https://img.shields.io/bundlejs/size/lru-tiny)](https://bundlejs.com/?q=lru-tiny)
+
 LRU cache with optional TTL. O(1) ops, `onEvict` hook, pluggable clock for tests. ~150 LoC, zero dependencies.
 
 ```ts
