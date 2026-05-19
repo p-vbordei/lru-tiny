@@ -1,5 +1,7 @@
 # lru-tiny
 
+[![ci](https://github.com/p-vbordei/lru-tiny/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/lru-tiny/actions/workflows/ci.yml)
+
 LRU cache with optional TTL. O(1) ops, `onEvict` hook, pluggable clock for tests. ~150 LoC, zero dependencies.
 
 ```ts
